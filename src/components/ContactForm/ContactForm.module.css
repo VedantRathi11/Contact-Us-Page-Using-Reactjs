@@ -1,0 +1,62 @@
+.container{
+    display: flex;
+    max-width: 1000px;
+    margin: 0 auto;
+    margin-top: 20px;
+    align-items: end;
+}
+
+.top_button {
+    display: flex;
+    gap: 32px;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.form_control{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    position: relative;
+}
+
+.form_control input{
+    height: 40px;
+    border-radius: 5px;
+    padding: 10px 10px;
+}
+
+.form_control label{
+    position: absolute;
+    top: -12px;
+    left: 10px;
+    background: white;
+    padding: 0 5px;
+    font-size: 14px;
+}
+
+.form_control textarea{
+    border-radius: 5px;
+    padding: 10px 10px;
+}
+.form form{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    padding-bottom: 20px;
+}
+
+.last_btn{
+    display: flex;
+    justify-content: end;
+}
+
+.image img{
+    height: 450px;
+    bottom: 0;
+}
+

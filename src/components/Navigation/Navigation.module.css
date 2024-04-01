@@ -1,0 +1,18 @@
+.navigation {
+  height: 72px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 8px;
+}
+
+.logo img {
+  width: 50px;
+}
+
+.navigation ul {
+  display: flex;
+  gap: 24px;
+  list-style: none;
+  font-weight: 500;
+}
